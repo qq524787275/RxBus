@@ -39,4 +39,10 @@ setOnSendEventListener = () => {
         RxBus.getInstance().post(new OnSendEvent(this.state.input));
     }
 ```
+4.释放监听事件。
+```javascript
+   componentWillUnmount() {
+        this.subscription.dispose();
+    }
+```
 [博客地址](http://zhuzichu.com/article/detail/3)
