@@ -22,7 +22,7 @@ class ReceiveComponent extends Component {
         this.setOnSendEventListener();
     }
 
-    //监听全局Toast事件 @see OnSendEvent
+    //@see OnSendEvent
     setOnSendEventListener = () => {
         this.subscription = RxBus.getInstance()
             .to(OnSendEvent.name)
