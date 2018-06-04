@@ -1,2 +1,2 @@
 项目运行npm install,npm start  
-博客:
+![image](https://github.com/qq524787275/RxBus/blob/master/doc/rxbus.gif) 
